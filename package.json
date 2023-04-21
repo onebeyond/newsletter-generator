@@ -6,6 +6,9 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cross-env NODE_ENV=test && jest --detectOpenHandles --forceExit  --verbose --runInBand",
+    "test:coverage": "cross-env NODE_ENV=test && jest --detectOpenHandles --forceExit --verbose --coverage --runInBand",
+    "test:watch": "cross-env NODE_ENV=test && jest --detectOpenHandles --forceExit --verbose --watchAll --runInBand"
   },
   "repository": {
     "type": "git",
@@ -19,7 +22,11 @@
   "engines": {
     "node": ">= 18.0.0"
   },
-  "homepage": "https://github.com/onebeyond/newsletter-generator#readme"
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
   "homepage": "https://github.com/onebeyond/newsletter-generator#readme",
   "devDependencies": {
     "cross-env": "7.0.3",
