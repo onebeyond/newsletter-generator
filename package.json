@@ -6,6 +6,8 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "standard",
+    "lint:fix": "standard --fix",
     "test": "cross-env NODE_ENV=test && jest --detectOpenHandles --forceExit  --verbose --runInBand",
     "test:coverage": "cross-env NODE_ENV=test && jest --detectOpenHandles --forceExit --verbose --coverage --runInBand",
     "test:watch": "cross-env NODE_ENV=test && jest --detectOpenHandles --forceExit --verbose --watchAll --runInBand"
