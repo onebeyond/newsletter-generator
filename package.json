@@ -1,0 +1,23 @@
+{
+  "name": "newsletter-generator",
+  "version": "1.0.0",
+  "description": "generate a newsletter report",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onebeyond/newsletter-generator.git"
+  },
+  "author": "Ulises Gascon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/onebeyond/newsletter-generator/issues"
+  },
+  "engines": {
+    "node": ">= 18.0.0"
+  },
+  "homepage": "https://github.com/onebeyond/newsletter-generator#readme"
+}
