@@ -237,3 +237,4 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/node,visualstudiocode,macos,windows,linux
 
 IGNORE/
+output/
