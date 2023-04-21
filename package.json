@@ -8,7 +8,8 @@
     "start": "node src/index.js",
     "lint": "standard",
     "lint:fix": "standard --fix",
-    "format": "prettier-standard --format",
+    "format": "prettier-standard --lint",
+    "format:fix": "prettier-standard --format",
     "test": "cross-env NODE_ENV=test && jest --detectOpenHandles --forceExit  --verbose --runInBand",
     "test:coverage": "cross-env NODE_ENV=test && jest --detectOpenHandles --forceExit --verbose --coverage --runInBand",
     "test:watch": "cross-env NODE_ENV=test && jest --detectOpenHandles --forceExit --verbose --watchAll --runInBand"
@@ -36,6 +37,7 @@
     "jest": "29.5.0",
     "jest-config": "29.5.0",
     "nock": "13.3.0",
+    "prettier-standard": "16.4.1",
     "standard": "17.0.0"
   }
 }
