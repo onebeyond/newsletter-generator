@@ -33,9 +33,19 @@ const saveNewsletter = (newsletter) => {
 
 const renderNewsletter = (data) => ejs.renderFile(templateFullPath, data)
 
+const getDatesRanges = () => {
+  const end = new Date()
+  const start = new Date(new Date().setDate(end.getDate() - 90))
+  return {
+    start: start.toISOString().split('T')[0],
+    end: end.toISOString().split('T')[0]
+  }
+}
+
 module.exports = {
   getCurrentMonth,
   getTimeStamp,
   saveNewsletter,
-  renderNewsletter
+  renderNewsletter,
+  getDatesRanges
 }
