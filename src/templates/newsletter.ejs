@@ -20,7 +20,7 @@
 
 <!--- Automated --->
 
-## Rankings
+## 🥇 Rankings
 
 ### Top 10 Stars
 
@@ -30,8 +30,15 @@
 
 ### Top 10 Downloads
 
-<!--- Automated --->
-<!--- Table and total downloads --->
+Total <%= data.npmStat.totalDownloads %> downloads for the <%= config.npmStat.packages.length %> npm packages since their publication
+
+| Package | Total Downloads | 
+| -- | -- |
+<%_ data.npmStat.top10.forEach( pkg => { -%>
+| [<%= pkg.name %>](https://www.npmjs.com/package/<%= pkg.name %>) | <%= pkg.total %> |
+<%_ }); -%>
+
+_Powered by [Npm Stat](https://github.com/pvorb/npm-stat.com)_
 
 
 ## 📊 Health report
