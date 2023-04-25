@@ -1,8 +1,80 @@
+const cauldronActivity = require('./data/cauldron-activity.json')
+const cauldronCommunity = require('./data/cauldron-community.json')
+const cauldronOverview = require('./data/cauldron-overview.json')
+const cauldronPerformance = require('./data/cauldron-performance.json')
 const stepSecurityGsRepos = require('./data/stepsecurity-gs-repos.json')
 const stepSecurityObRepos = require('./data/stepsecurity-ob-repos.json')
 
 module.exports = {
-
+  cauldron: {
+    payloads: {
+      summary: cauldronOverview,
+      activity: cauldronActivity,
+      community: cauldronCommunity,
+      performance: cauldronPerformance
+    },
+    output: {
+      summary: {
+        commits_overview: 3703,
+        issues_overview: 442,
+        reviews_overview: 984,
+        questions_overview: 0,
+        commits_last_year_overview: 946,
+        issues_last_year_overview: 155,
+        reviews_last_year_overview: 390,
+        questions_last_year_overview: 0,
+        commits_yoy_overview: 84.05,
+        issues_yoy_overview: 106.67,
+        reviews_yoy_overview: 61.16,
+        questions_yoy_overview: 0,
+        commit_authors_overview: 158,
+        issue_submitters_overview: 129,
+        review_submitters_overview: 93,
+        question_authors_overview: 0,
+        commit_authors_last_year_overview: 56,
+        issue_submitters_last_year_overview: 26,
+        review_submitters_last_year_overview: 34,
+        question_authors_last_year_overview: 0,
+        commit_authors_yoy_overview: 19.15,
+        issue_submitters_yoy_overview: -36.59,
+        review_submitters_yoy_overview: 17.24,
+        question_authors_yoy_overview: 0,
+        issues_median_time_to_close_overview: 6.47,
+        reviews_median_time_to_close_overview: 0.85,
+        issues_median_time_to_close_last_year_overview: 13.43,
+        reviews_median_time_to_close_last_year_overview: 0.63,
+        issues_median_time_to_close_yoy_overview: 126.09,
+        reviews_median_time_to_close_yoy_overview: -89.95
+      },
+      activity: {
+        commits_activity_overview: 407,
+        lines_commit_activity_overview: '1132.84',
+        lines_commit_file_activity_overview: '0.22',
+        issues_created_activity_overview: 69,
+        issues_closed_activity_overview: 41,
+        issues_open_activity_overview: 134,
+        reviews_created_activity_overview: 185,
+        reviews_closed_activity_overview: 154,
+        reviews_open_activity_overview: 190
+      },
+      community: {
+        active_people_git_community_overview: 29,
+        active_people_issues_community_overview: 10,
+        active_people_patches_community_overview: 20,
+        onboardings_git_community_overview: 15,
+        onboardings_issues_community_overview: 5,
+        onboardings_patches_community_overview: 10
+      },
+      performance: {
+        issues_time_open_average_performance_overview: 442.48,
+        issues_time_open_median_performance_overview: 165.69,
+        open_issues_performance_overview: 135,
+        reviews_time_open_average_performance_overview: 419.86,
+        reviews_time_open_median_performance_overview: 382.67,
+        open_reviews_performance_overview: 202
+      }
+    }
+  },
   stepSecurity: {
     repositories: {
       payloads: {
