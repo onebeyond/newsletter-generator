@@ -31,7 +31,8 @@ describe('Utils', () => {
         stepSecurity: {
           top10: fixtures.stepSecurity.repositories.output.top10,
           average: fixtures.stepSecurity.repositories.output.average
-        }
+        },
+        cauldron: fixtures.cauldron.output
       }
       const newsletter = await renderNewsletter({ data, config })
       expect(newsletter).toMatchSnapshot()

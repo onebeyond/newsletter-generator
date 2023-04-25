@@ -36,19 +36,79 @@
 
 ## 📊 Health report
 
-<details>
-    <summary>### Activity</summary>
-    <!--- Automated --->
-</details>
+The full reports are available at [Cauldron](<%= config.cauldron.baseProjectUrl %>) and [Grafana Dashboard](<%= config.cauldron.reference.grafana %>).
+
+### Activity
+
+| | Commits | Issues |  Reviews | 
+| -- | -- | -- | -- |
+| Total | <%= data.cauldron.summary.commits_overview %> | <%= data.cauldron.summary.issues_overview %> | <%= data.cauldron.summary.reviews_overview %> |
+| Total (Last year)	| <%= data.cauldron.summary.commits_last_year_overview %> | <%= data.cauldron.summary.issues_last_year_overview %> | <%= data.cauldron.summary.reviews_last_year_overview %> |
+| Year-over-year | <%= data.cauldron.summary.commits_yoy_overview %>% | <%= data.cauldron.summary.issues_yoy_overview %>% | <%= data.cauldron.summary.reviews_yoy_overview %> |
 
 <details>
-    <summary>### Community</summary>
-    <!--- Automated --->
+    <summary>Details</summary>
+
+- Commits: <%= data.cauldron.activity.commits_activity_overview %>
+- Lines/commit: <%= data.cauldron.activity.lines_commit_activity_overview %>
+- Lines/commit/file: <%= data.cauldron.activity.lines_commit_file_activity_overview %>
+- Issues created: <%= data.cauldron.activity.issues_created_activity_overview %>
+- Issues closed: <%= data.cauldron.activity.issues_closed_activity_overview %>
+- Issues open: <%= data.cauldron.activity.issues_open_activity_overview %>
+- Pull requests created: <%= data.cauldron.activity.reviews_created_activity_overview %>
+- Pull requests closed: <%= data.cauldron.activity.reviews_closed_activity_overview %>
+- Pull requests open: <%= data.cauldron.activity.reviews_open_activity_overview %>
+
 </details>
 
+
+### Community
+
+| | Commit authors | Issue submitters |  Review submitters | 
+| -- | -- | -- | -- |
+| Total | <%= data.cauldron.summary.commit_authors_overview %> | <%= data.cauldron.summary.issue_submitters_overview %> | <%= data.cauldron.summary.review_submitters_overview %> |
+| Total (Last year)	| <%= data.cauldron.summary.commit_authors_last_year_overview %> | <%= data.cauldron.summary.issue_submitters_last_year_overview %> | <%= data.cauldron.summary.review_submitters_last_year_overview %> |
+| Year-over-year | <%= data.cauldron.summary.commit_authors_yoy_overview %>% | <%= data.cauldron.summary.issue_submitters_yoy_overview %>% | <%= data.cauldron.summary.review_submitters_yoy_overview %> |
+
 <details>
-    <summary>### Performance</summary>
-    <!--- Automated --->
+    <summary>Details</summary>
+
+**Active People**
+- Git Authors: <%= data.cauldron.community.active_people_git_community_overview %>
+- Issue Authors: <%= data.cauldron.community.active_people_issues_community_overview %>
+- PRs Submitters: <%= data.cauldron.community.active_people_patches_community_overview %>
+
+**Onboarding**
+- Git Authors: <%= data.cauldron.community.onboardings_git_community_overview %>
+- Issue Authors: <%= data.cauldron.community.onboardings_issues_community_overview %>
+- PRs Submitters: <%= data.cauldron.community.onboardings_patches_community_overview %>
+
+</details>
+
+
+### Performance
+
+
+| | Issues | Reviews | 
+| -- | -- | -- |
+| Total | <%= data.cauldron.summary.issues_median_time_to_close_overview %> days | <%= data.cauldron.summary.reviews_median_time_to_close_overview %> days |
+| Total (Last year)	| <%= data.cauldron.summary.issues_median_time_to_close_last_year_overview %> days | <%= data.cauldron.summary.reviews_median_time_to_close_last_year_overview %> days |
+| Year-over-year | <%= data.cauldron.summary.issues_median_time_to_close_yoy_overview %>% | <%= data.cauldron.summary.reviews_median_time_to_close_yoy_overview %>% |
+
+
+<details>
+    <summary>Details</summary>
+
+**Issues**
+- Time Open (average): <%= data.cauldron.performance.issues_time_open_average_performance_overview %> days
+- Time Open (median): <%= data.cauldron.performance.issues_time_open_median_performance_overview %> days
+- Open Issues: <%= data.cauldron.performance.open_issues_performance_overview %>
+
+**Reviews**
+- Time Open (average): <%= data.cauldron.performance.reviews_time_open_average_performance_overview %> days
+- Time Open (median): <%= data.cauldron.performance.reviews_time_open_median_performance_overview %> days
+- Open Reviews: <%= data.cauldron.performance.open_reviews_performance_overview %>
+
 </details>
 
 
