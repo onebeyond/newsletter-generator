@@ -19,8 +19,8 @@ describe('Utils', () => {
 
   describe('renderNewsletter', () => {
     it('should render a newsletter', async () => {
-      const data = { 
-        currentMonth: 'January',  
+      const data = {
+        currentMonth: 'January',
         stepSecurity: {
           top10: fixtures.stepSecurity.repositories.output.top10,
           average: fixtures.stepSecurity.repositories.output.average
