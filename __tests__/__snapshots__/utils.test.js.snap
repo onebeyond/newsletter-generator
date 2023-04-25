@@ -23,7 +23,7 @@ exports[`Utils renderNewsletter should render a newsletter 1`] = `
 
 <!--- Automated --->
 
-## Rankings
+## 🥇 Rankings
 
 ### Top 10 Stars
 
@@ -33,8 +33,22 @@ exports[`Utils renderNewsletter should render a newsletter 1`] = `
 
 ### Top 10 Downloads
 
-<!--- Automated --->
-<!--- Table and total downloads --->
+Total 5908504 downloads for the 80 npm packages since their publication
+
+| Package | Total Downloads | 
+| -- | -- |
+| [rascal](https://www.npmjs.com/package/rascal) | 2181445 |
+| [stashback](https://www.npmjs.com/package/stashback) | 1955026 |
+| [@guidesmiths/generator-react-component](https://www.npmjs.com/package/@guidesmiths/generator-react-component) | 437497 |
+| [react-native-uservoice](https://www.npmjs.com/package/react-native-uservoice) | 314876 |
+| [marv](https://www.npmjs.com/package/marv) | 307220 |
+| [marv-pg-driver](https://www.npmjs.com/package/marv-pg-driver) | 231643 |
+| [make-manifest](https://www.npmjs.com/package/make-manifest) | 145833 |
+| [@guidesmiths/license-checker](https://www.npmjs.com/package/@guidesmiths/license-checker) | 114225 |
+| [whoosh](https://www.npmjs.com/package/whoosh) | 111288 |
+| [systemic](https://www.npmjs.com/package/systemic) | 109381 |
+
+_Powered by [Npm Stat](https://github.com/pvorb/npm-stat.com)_
 
 
 ## 📊 Health report
