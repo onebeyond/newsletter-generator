@@ -12,11 +12,11 @@
 
 <!--- @TODO: Manual addition --->
 
-## ♥️ New Faces
+## 🍿 New Repositories
 
 <!--- Automated --->
 
-## 📦 New Releases
+## 📦 Latest Releases
 
 <!--- Automated --->
 
@@ -36,22 +36,39 @@
 
 ## 📊 Health report
 
-<!--- Automated --->
+<details>
+    <summary>### Activity</summary>
+    <!--- Automated --->
+</details>
 
-### Activity
+<details>
+    <summary>### Community</summary>
+    <!--- Automated --->
+</details>
 
-<!--- Automated --->
+<details>
+    <summary>### Performance</summary>
+    <!--- Automated --->
+</details>
 
-### Community
 
-<!--- Automated --->
+## Security
 
-### Performance
+### OpenSSF Scorecard
 
-<!--- Automated --->
+The average score is <%= data.stepSecurity.average.toFixed(2) %>/10
 
-### Security
+The full reports are available at [Step Security Dashboard (Current)](<%= config.stepSecurity.reference.ob %>) and [Step Security Dashboard (Legacy)](<%= config.stepSecurity.reference.gs %>).
 
-<!--- Automated --->
+
+**Top 10 Projects in the OpenSSF Scorecard**
+
+<%_ if (data.stepSecurity.top10.length) { %>
+| Repository | Score |
+| -- | -- |
+<% } -%>
+<%_ data.stepSecurity.top10.forEach( project => { -%>
+| [<%= project.org %>/<%= project.repo %>](https://github.com/<%= project.org %>/<%= project.repo %>) | <%= project.score %> |
+<%_ }); -%>
 
 

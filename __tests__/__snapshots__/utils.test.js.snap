@@ -15,11 +15,11 @@ exports[`Utils renderNewsletter should render a newsletter 1`] = `
 
 <!--- @TODO: Manual addition --->
 
-## ♥️ New Faces
+## 🍿 New Repositories
 
 <!--- Automated --->
 
-## 📦 New Releases
+## 📦 Latest Releases
 
 <!--- Automated --->
 
@@ -39,23 +39,46 @@ exports[`Utils renderNewsletter should render a newsletter 1`] = `
 
 ## 📊 Health report
 
-<!--- Automated --->
+<details>
+    <summary>### Activity</summary>
+    <!--- Automated --->
+</details>
 
-### Activity
+<details>
+    <summary>### Community</summary>
+    <!--- Automated --->
+</details>
 
-<!--- Automated --->
+<details>
+    <summary>### Performance</summary>
+    <!--- Automated --->
+</details>
 
-### Community
 
-<!--- Automated --->
+## Security
 
-### Performance
+### OpenSSF Scorecard
 
-<!--- Automated --->
+The average score is 4.34/10
 
-### Security
+The full reports are available at [Step Security Dashboard (Current)](https://app.stepsecurity.io/github/app/onebeyond/onebeyond/repositories) and [Step Security Dashboard (Legacy)](https://app.stepsecurity.io/github/app/onebeyond/guidesmiths/repositories).
 
-<!--- Automated --->
+
+**Top 10 Projects in the OpenSSF Scorecard**
+
+
+| Repository | Score |
+| -- | -- |
+| [onebeyond/systemic-knex](https://github.com/onebeyond/systemic-knex) | 6.9 |
+| [onebeyond/onebeyond-studio-core](https://github.com/onebeyond/onebeyond-studio-core) | 6.8 |
+| [onebeyond/onebeyond-studio-email-providers](https://github.com/onebeyond/onebeyond-studio-email-providers) | 6.8 |
+| [onebeyond/swagger-endpoint-validator](https://github.com/onebeyond/swagger-endpoint-validator) | 6.8 |
+| [onebeyond/onebeyond-studio-obelisk](https://github.com/onebeyond/onebeyond-studio-obelisk) | 6.5 |
+| [onebeyond/cuckoojs](https://github.com/onebeyond/cuckoojs) | 6.3 |
+| [onebeyond/open-source-project-template](https://github.com/onebeyond/open-source-project-template) | 6.3 |
+| [onebeyond/.github](https://github.com/onebeyond/.github) | 6.2 |
+| [onebeyond/12-factor-app-pills](https://github.com/onebeyond/12-factor-app-pills) | 6.2 |
+| [onebeyond/systemic-pg](https://github.com/onebeyond/systemic-pg) | 6.2 |
 
 
 "
