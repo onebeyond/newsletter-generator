@@ -43,6 +43,7 @@
   "dependencies": {
     "@ulisesgascon/array-to-chunks": "1.0.1",
     "@ulisesgascon/simplify-object": "1.0.0",
+    "dotenv": "16.0.3",
     "ejs": "3.1.9",
     "gh-got": "10.0.0",
     "got": "11.8.6"
