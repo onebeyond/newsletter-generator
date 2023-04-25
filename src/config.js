@@ -1,4 +1,10 @@
 module.exports = {
+  cauldron: {
+    reference: {
+      grafana: 'https://cauldron.io/project/7192/public-kibana'
+    },
+    baseProjectUrl: 'https://cauldron.io/project/7192'
+  },
   stepSecurity: {
     reference: {
       gs: 'https://app.stepsecurity.io/github/app/onebeyond/guidesmiths/repositories',

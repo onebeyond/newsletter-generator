@@ -39,19 +39,79 @@ exports[`Utils renderNewsletter should render a newsletter 1`] = `
 
 ## 📊 Health report
 
-<details>
-    <summary>### Activity</summary>
-    <!--- Automated --->
-</details>
+The full reports are available at [Cauldron](https://cauldron.io/project/7192) and [Grafana Dashboard](https://cauldron.io/project/7192/public-kibana).
+
+### Activity
+
+| | Commits | Issues |  Reviews | 
+| -- | -- | -- | -- |
+| Total | 3703 | 442 | 984 |
+| Total (Last year)	| 946 | 155 | 390 |
+| Year-over-year | 84.05% | 106.67% | 61.16 |
 
 <details>
-    <summary>### Community</summary>
-    <!--- Automated --->
+    <summary>Details</summary>
+
+- Commits: 407
+- Lines/commit: 1132.84
+- Lines/commit/file: 0.22
+- Issues created: 69
+- Issues closed: 41
+- Issues open: 134
+- Pull requests created: 185
+- Pull requests closed: 154
+- Pull requests open: 190
+
 </details>
 
+
+### Community
+
+| | Commit authors | Issue submitters |  Review submitters | 
+| -- | -- | -- | -- |
+| Total | 158 | 129 | 93 |
+| Total (Last year)	| 56 | 26 | 34 |
+| Year-over-year | 19.15% | -36.59% | 17.24 |
+
 <details>
-    <summary>### Performance</summary>
-    <!--- Automated --->
+    <summary>Details</summary>
+
+**Active People**
+- Git Authors: 29
+- Issue Authors: 10
+- PRs Submitters: 20
+
+**Onboarding**
+- Git Authors: 15
+- Issue Authors: 5
+- PRs Submitters: 10
+
+</details>
+
+
+### Performance
+
+
+| | Issues | Reviews | 
+| -- | -- | -- |
+| Total | 6.47 days | 0.85 days |
+| Total (Last year)	| 13.43 days | 0.63 days |
+| Year-over-year | 126.09% | -89.95% |
+
+
+<details>
+    <summary>Details</summary>
+
+**Issues**
+- Time Open (average): 442.48 days
+- Time Open (median): 165.69 days
+- Open Issues: 135
+
+**Reviews**
+- Time Open (average): 419.86 days
+- Time Open (median): 382.67 days
+- Open Reviews: 202
+
 </details>
 
 
