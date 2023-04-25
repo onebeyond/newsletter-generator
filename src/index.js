@@ -1,3 +1,6 @@
+// Load secrets
+require('dotenv').config()
+
 const {
   renderNewsletter,
   saveNewsletter,
