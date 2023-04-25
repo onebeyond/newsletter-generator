@@ -6,6 +6,23 @@ const stepSecurityGsRepos = require('./data/stepsecurity-gs-repos.json')
 const stepSecurityObRepos = require('./data/stepsecurity-ob-repos.json')
 
 module.exports = {
+  npmStat: {
+    output: {
+      totalDownloads: 5908504,
+      top10: [
+        { name: 'rascal', total: 2181445 },
+        { name: 'stashback', total: 1955026 },
+        { name: '@guidesmiths/generator-react-component', total: 437497 },
+        { name: 'react-native-uservoice', total: 314876 },
+        { name: 'marv', total: 307220 },
+        { name: 'marv-pg-driver', total: 231643 },
+        { name: 'make-manifest', total: 145833 },
+        { name: '@guidesmiths/license-checker', total: 114225 },
+        { name: 'whoosh', total: 111288 },
+        { name: 'systemic', total: 109381 }
+      ]
+    }
+  },
   cauldron: {
     payloads: {
       summary: cauldronOverview,
