@@ -17,7 +17,7 @@ const { collectNpmStatReport } = require('./workflows/download-npm-stat-report')
 ;(async () => {
   const data = {}
   data.currentMonth = getCurrentMonth()
-  const { start, end } = getDatesRanges()
+  const { start: start90daysAgo, end } = getDatesRanges(90)
   debug('Starting the NPM Stats process...')
   data.npmStat = await collectNpmStatReport({ today: end })
   debug('Starting the Cauldron process...')
