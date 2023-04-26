@@ -29,8 +29,8 @@ const collectGithubReport = async ({ start, end }) => {
   repos.forEach(repo => {
     const rangeStart = new Date(start)
     const rangeEnd = new Date(end)
-    const createdAt = new Date(repo.created_at)
-    const pushedAt = new Date(repo.pushed_at)
+    const createdAt = new Date(repo.created_at.split('T')[0])
+    const pushedAt = new Date(repo.pushed_at.split('T')[0])
 
     if (createdAt >= rangeStart) {
       newRepos.push(repo)
@@ -57,7 +57,7 @@ const collectGithubReport = async ({ start, end }) => {
     .filter(release => {
       if (!release) return false
 
-      const published = new Date(release.published_at)
+      const published = new Date(release.published_at.split('T')[0])
       const rangeStart = new Date(start)
       const rangeEnd = new Date(end)
       return published >= rangeStart && published <= rangeEnd
