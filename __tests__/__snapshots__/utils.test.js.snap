@@ -7,7 +7,7 @@ exports[`Utils renderNewsletter should render a newsletter 1`] = `
 
 <!--- @TODO: Manual addition --->
 
-## 📚 Great articles
+## 📚 Great Resources
 
 <!--- @TODO: Manual addition --->
 
@@ -17,18 +17,31 @@ exports[`Utils renderNewsletter should render a newsletter 1`] = `
 
 ## 🍿 New Repositories
 
-<!--- Automated --->
+- [onebeyond/newsletter-generator](https://github.com/onebeyond/newsletter-generator)
+- [onebeyond/shieldjs](https://github.com/onebeyond/shieldjs)
 
 ## 📦 Latest Releases
 
-<!--- Automated --->
+- [onebeyond/onebeyond-studio-file-storage@ v7.0.0.2](https://github.com/onebeyond/onebeyond-studio-file-storage/releases/tag/v7.0.0.2)
+- [onebeyond/swagger-endpoint-validator@ v4.0.0](https://github.com/onebeyond/swagger-endpoint-validator/releases/tag/v4.0.0)
+- [onebeyond/systemic-knex@ ob-v4.0.0](https://github.com/onebeyond/systemic-knex/releases/tag/ob-v4.0.0)
 
 ## 🥇 Rankings
 
 ### Top 10 Stars
 
-<!--- Automated --->
-<!--- Table and total stars --->
+| Repository | Total Stars | 
+| -- | -- |
+| [onebeyond/rascal](https://github.com/onebeyond/rascal) | 400 ⭐️ |
+| [guidesmiths/cybersecurity-handbook](https://github.com/guidesmiths/cybersecurity-handbook) | 104 ⭐️ |
+| [onebeyond/systemic](https://github.com/onebeyond/systemic) | 54 ⭐️ |
+| [guidesmiths/marv](https://github.com/guidesmiths/marv) | 43 ⭐️ |
+| [onebeyond/react-form-builder](https://github.com/onebeyond/react-form-builder) | 29 ⭐️ |
+| [onebeyond/monaco](https://github.com/onebeyond/monaco) | 25 ⭐️ |
+| [onebeyond/generator-systemic](https://github.com/onebeyond/generator-systemic) | 24 ⭐️ |
+| [guidesmiths/whoosh](https://github.com/guidesmiths/whoosh) | 14 ⭐️ |
+| [onebeyond/confabulous](https://github.com/onebeyond/confabulous) | 13 ⭐️ |
+| [onebeyond/interview-code-challenges](https://github.com/onebeyond/interview-code-challenges) | 12 ⭐️ |
 
 
 ### Top 10 Downloads
@@ -129,7 +142,7 @@ The full reports are available at [Cauldron](https://cauldron.io/project/7192) a
 </details>
 
 
-## Security
+## 🔐 Security
 
 ### OpenSSF Scorecard
 
