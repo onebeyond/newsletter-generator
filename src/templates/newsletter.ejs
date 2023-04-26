@@ -4,7 +4,7 @@
 
 <!--- @TODO: Manual addition --->
 
-## 📚 Great articles
+## 📚 Great Resources
 
 <!--- @TODO: Manual addition --->
 
@@ -14,18 +14,25 @@
 
 ## 🍿 New Repositories
 
-<!--- Automated --->
+<%_ data.github.newRepos.forEach( repo => { -%>
+- [<%= repo.full_name %>](https://github.com/<%= repo.full_name %>)
+<%_ }); -%>
 
 ## 📦 Latest Releases
 
-<!--- Automated --->
+<%_ data.github.newReleases.forEach( repo => { -%>
+- [<%= repo.repo %>@ <%= repo.tag_name %>](<%= repo.html_url %>)
+<%_ }); -%>
 
 ## 🥇 Rankings
 
 ### Top 10 Stars
 
-<!--- Automated --->
-<!--- Table and total stars --->
+| Repository | Total Stars | 
+| -- | -- |
+<%_ data.github.top10.forEach( repo => { -%>
+| [<%= repo.full_name %>](https://github.com/<%= repo.full_name %>) | <%= repo.stargazers_count %> ⭐️ |
+<%_ }); -%>
 
 
 ### Top 10 Downloads
@@ -119,7 +126,7 @@ The full reports are available at [Cauldron](<%= config.cauldron.baseProjectUrl 
 </details>
 
 
-## Security
+## 🔐 Security
 
 ### OpenSSF Scorecard
 

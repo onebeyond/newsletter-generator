@@ -4,8 +4,12 @@ const cauldronOverview = require('./data/cauldron-overview.json')
 const cauldronPerformance = require('./data/cauldron-performance.json')
 const stepSecurityGsRepos = require('./data/stepsecurity-gs-repos.json')
 const stepSecurityObRepos = require('./data/stepsecurity-ob-repos.json')
+const githubOutputData = require('./data/output-github.json')
 
 module.exports = {
+  github: {
+    output: githubOutputData
+  },
   npmStat: {
     output: {
       totalDownloads: 5908504,

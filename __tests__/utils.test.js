@@ -11,10 +11,15 @@ describe('Utils', () => {
     })
   })
   describe('getDatesRanges', () => {
-    it('should return a valid range', () => {
-      const { start, end } = getDatesRanges()
+    it('should return a valid range for 90 days', () => {
+      const { start, end } = getDatesRanges(90)
       expect(end).toBe('2020-01-01')
       expect(start).toBe('2019-10-03')
+    })
+    it('should return a valid range for 30 days', () => {
+      const { start, end } = getDatesRanges(30)
+      expect(end).toBe('2020-01-01')
+      expect(start).toBe('2019-12-02')
     })
   })
 
@@ -33,7 +38,8 @@ describe('Utils', () => {
           average: fixtures.stepSecurity.repositories.output.average
         },
         cauldron: fixtures.cauldron.output,
-        npmStat: fixtures.npmStat.output
+        npmStat: fixtures.npmStat.output,
+        github: fixtures.github.output
       }
       const newsletter = await renderNewsletter({ data, config })
       expect(newsletter).toMatchSnapshot()

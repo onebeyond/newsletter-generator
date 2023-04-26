@@ -8,7 +8,7 @@ describe('download-cauldron-report', () => {
   beforeEach(nock.cleanAll)
 
   it('should download Cauldron reports', async () => {
-    const { end } = getDatesRanges()
+    const { end } = getDatesRanges(90)
 
     const scopes = []
 

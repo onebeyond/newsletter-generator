@@ -7,7 +7,7 @@ describe('download-cauldron-report', () => {
   beforeEach(nock.cleanAll)
 
   it('should download Cauldron reports', async () => {
-    const { start, end } = getDatesRanges()
+    const { start, end } = getDatesRanges(90)
     const {
       summary: summaryData,
       activity: activityData,
