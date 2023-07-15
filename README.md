@@ -1,3 +1,6 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/a41eaa0bd1a88119053f/maintainability)](https://codeclimate.com/github/onebeyond/newsletter-generator/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/a41eaa0bd1a88119053f/test_coverage)](https://codeclimate.com/github/onebeyond/newsletter-generator/test_coverage)
+
 # newsletter-generator
 
 ## About 
