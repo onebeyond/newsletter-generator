@@ -21,7 +21,7 @@ module.exports = {
         { name: 'marv', total: 307220 },
         { name: 'marv-pg-driver', total: 231643 },
         { name: 'make-manifest', total: 145833 },
-        { name: '@guidesmiths/license-checker', total: 114225 },
+        { name: '@onebeyond/license-checker', total: 114225 },
         { name: 'whoosh', total: 111288 },
         { name: 'systemic', total: 109381 }
       ]
