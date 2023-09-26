@@ -11,6 +11,10 @@ exports[`Utils renderNewsletter should render a newsletter 1`] = `
 
 <!--- @TODO: Manual addition --->
 
+**👀 Repo of the month**
+
+<!--- @TODO: Manual addition --->
+
 ## 🗓 Last Meetings
 
 <!--- @TODO: Manual addition --->
@@ -57,7 +61,7 @@ Total 5908504 downloads for the 80 npm packages since their publication
 | [marv](https://www.npmjs.com/package/marv) | 307220 |
 | [marv-pg-driver](https://www.npmjs.com/package/marv-pg-driver) | 231643 |
 | [make-manifest](https://www.npmjs.com/package/make-manifest) | 145833 |
-| [@guidesmiths/license-checker](https://www.npmjs.com/package/@guidesmiths/license-checker) | 114225 |
+| [@onebeyond/license-checker](https://www.npmjs.com/package/@onebeyond/license-checker) | 114225 |
 | [whoosh](https://www.npmjs.com/package/whoosh) | 111288 |
 | [systemic](https://www.npmjs.com/package/systemic) | 109381 |
 

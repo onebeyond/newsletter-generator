@@ -5,7 +5,7 @@ module.exports = {
       '@guidesmiths/cuckoojs-cli',
       '@guidesmiths/cuckoojs-schematics',
       '@guidesmiths/generator-react-component',
-      '@guidesmiths/license-checker',
+      '@onebeyond/license-checker',
       '@guidesmiths/react-form-builder',
       '@guidesmiths/react-form-creator',
       '@guidesmiths/systemic-aws-s3',
